@@ -1,0 +1,192 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* height: 3000px; Used to enable scrolling */
+  background: linear-gradient(180deg, #068082, black, #068082 , #068082, pink);
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Arial";
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Titan One";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+section {
+  /* background: linear-gradient(0deg, #068082, black); */
+  color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  /* padding: 0 18px; */
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Donwload buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title .container-fluid {
+  text-align: center;
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+#features {
+  background-color: #fff;
+  position: relative;
+  color: #206e95;
+}
+
+#features .container-fluid {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.feature-title {
+  line-height: 1.5;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #0096d0;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #206e95;
+}
+
+/* Gallery Section */
+#gallery {
+  background-color: white;
+}
+.gallery-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.gallery-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* Testimonial Section */
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* CTA Section */
+.cta-heading {
+  font-weight: lighter;
+}
+#cta .container-fluid {
+  padding: 2vw 5vw;
+}
+#cta .col-sm-12 {
+  margin: auto;
+}
+.form-group p {
+  color: #fff;
+}
+.red{
+  color:red;
+}
+#submit {
+  box-shadow: 3px 3px 4px #37484f;
+}
+
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px 0 10px;
+}
+
+/* Media Queries- Breakpoints */
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+  #title .container-fluid {
+    padding: 2%;
+  }
+
+  .container-fluid .navbar {
+    z-index: 2;
+    padding: 0 5vw 2vw 5vw;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+  }
+  
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  #footer {
+    padding-bottom: 10vw;
+  }
+}
