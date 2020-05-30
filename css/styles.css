@@ -187,6 +187,6 @@ section {
     transform: rotate(0);
   }
   #footer {
-    padding-bottom: 10vw;
+    padding-bottom: 10vw; 
   }
 }
